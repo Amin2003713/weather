@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نجات غذا - صفحه اصلی</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+        extend: {
+        colors: {
+        primary: '#6DAE9F',
+        secondary: '#3A6F63'
+        },
+        borderRadius: {
+        'none': '0px',
+        'sm': '4px',
+        DEFAULT: '8px',
+        'md': '12px',
+        'lg': '16px',
+        'xl': '20px',
+        '2xl': '24px',
+        '3xl': '32px',
+        'full': '9999px',
+        'button': '8px'
+        }
+        }
+        }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <style>
+        :where([class^="ri-"])::before {
+        content: "\f3c2";
+        }
+        body {
+        font-family: 'Vazir', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+<!-- Navigation Bar -->
+<nav class="fixed top-0 w-full bg-white shadow-sm z-50">
+    <div class="flex items-center justify-between px-4 py-3">
+        <div class="flex items-center space-x-3 space-x-reverse">
+            <div class="w-8 h-8 flex items-center justify-center">
+                <i class="ri-user-line text-gray-600 text-lg"></i>
+            </div>
+            <div class="w-8 h-8 flex items-center justify-center">
+                <i class="ri-notification-line text-gray-600 text-lg"></i>
+            </div>
+        </div>
+        <h1 class="text-xl font-bold text-secondary font-['Pacifico']">logo</h1>
+        <div class="w-8 h-8 flex items-center justify-center">
+            <i class="ri-menu-line text-gray-600 text-lg"></i>
+        </div>
+    </div>
+</nav>
+<!-- Main Content -->
+<main class="pt-16 pb-20">
+    <!-- Search Section -->
+    <div class="px-4 py-4 bg-white">
+        <div class="relative">
+            <input type="text" placeholder="جستجو در رستوران‌ها و فروشگاه‌ها..."
+                   class="w-full bg-gray-100 rounded-lg px-4 py-3 pr-12 text-sm border-none">
+            <div class="absolute right-4 top-1/2 transform -translate-y-1/2 w-5 h-5 flex items-center justify-center">
+                <i class="ri-search-line text-gray-500"></i>
+            </div>
+        </div>
+        <div class="flex space-x-2 space-x-reverse mt-3">
+            <button class="bg-primary text-white px-4 py-2 rounded-full text-xs !rounded-button cursor-pointer">
+                همه
+            </button>
+            <button class="bg-gray-100 text-gray-600 px-4 py-2 rounded-full text-xs !rounded-button cursor-pointer">
+                نزدیک‌ترین
+            </button>
+            <button class="bg-gray-100 text-gray-600 px-4 py-2 rounded-full text-xs !rounded-button cursor-pointer">
+                ارزان‌ترین
+            </button>
+        </div>
+    </div>
+    <!-- Environmental Impact Banner -->
+    <div class="px-4 py-4">
+        <div class="bg-gradient-to-r from-primary to-secondary rounded-lg p-4 text-white">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h3 class="font-bold text-base mb-1">تأثیر شما بر محیط زیست</h3>
+                    <p class="text-sm opacity-90">این ماه ۱۲ کیلو غذا نجات دادید</p>
+                </div>
+                <div class="w-12 h-12 flex items-center justify-center">
+                    <i class="ri-leaf-fill text-2xl"></i>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 gap-4 mt-4">
+                <div class="text-center">
+                    <div class="text-lg font-bold">۲,۴۰۰</div>
+                    <div class="text-xs opacity-80">لیتر آب</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-lg font-bold">۸.۵</div>
+                    <div class="text-xs opacity-80">کیلو CO₂</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-lg font-bold">۱۵</div>
+                    <div class="text-xs opacity-80">کیلووات انرژی</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Food Categories -->
+    <div class="px-4 py-4">
+        <h2 class="text-lg font-bold text-gray-900 mb-3">دسته‌بندی غذایی</h2>
+        <div class="grid grid-cols-4 gap-4">
+            <div class="flex flex-col items-center cursor-pointer">
+                <div class="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=icon%2C%203D%20cartoon%2C%20Fast%20food%20burger%20and%20fries%2C%20the%20icon%20should%20take%20up%2070%25%20of%20the%20frame%2C%20vibrant%20colors%20with%20soft%20gradients%2C%20minimalist%20design%2C%20smooth%20rounded%20shapes%2C%20subtle%20shading%2C%20no%20outlines%2C%20centered%20composition%2C%20isolated%20on%20white%20background%2C%20playful%20and%20friendly%20aesthetic%2C%20isometric%20perspective%2C%20high%20detail%20quality%2C%20clean%20and%20modern%20look%2C%20single%20object%20focus&width=64&height=64&seq=cat1&orientation=squarish"
+                         alt="فست فود" class="w-full h-full object-cover object-top">
+                </div>
+                <span class="text-xs mt-2 text-center"
+                      style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">فست فود</span>
+            </div>
+            <div class="flex flex-col items-center cursor-pointer">
+                <div class="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=icon%2C%203D%20cartoon%2C%20Traditional%20Persian%20rice%20and%20kebab%2C%20the%20icon%20should%20take%20up%2070%25%20of%20the%20frame%2C%20vibrant%20colors%20with%20soft%20gradients%2C%20minimalist%20design%2C%20smooth%20rounded%20shapes%2C%20subtle%20shading%2C%20no%20outlines%2C%20centered%20composition%2C%20isolated%20on%20white%20background%2C%20playful%20and%20friendly%20aesthetic%2C%20isometric%20perspective%2C%20high%20detail%20quality%2C%20clean%20and%20modern%20look%2C%20single%20object%20focus&width=64&height=64&seq=cat2&orientation=squarish"
+                         alt="ایرانی" class="w-full h-full object-cover object-top">
+                </div>
+                <span class="text-xs mt-2 text-center"
+                      style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">ایرانی</span>
+            </div>
+            <div class="flex flex-col items-center cursor-pointer">
+                <div class="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=icon%2C%203D%20cartoon%2C%20Fresh%20bakery%20bread%20and%20pastries%2C%20the%20icon%20should%20take%20up%2070%25%20of%20the%20frame%2C%20vibrant%20colors%20with%20soft%20gradients%2C%20minimalist%20design%2C%20smooth%20rounded%20shapes%2C%20subtle%20shading%2C%20no%20outlines%2C%20centered%20composition%2C%20isolated%20on%20white%20background%2C%20playful%20and%20friendly%20aesthetic%2C%20isometric%20perspective%2C%20high%20detail%20quality%2C%20clean%20and%20modern%20look%2C%20single%20object%20focus&width=64&height=64&seq=cat3&orientation=squarish"
+                         alt="نان و شیرینی" class="w-full h-full object-cover object-top">
+                </div>
+                <span class="text-xs mt-2 text-center"
+                      style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">نان و شیرینی</span>
+            </div>
+            <div class="flex flex-col items-center cursor-pointer">
+                <div class="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=icon%2C%203D%20cartoon%2C%20Fresh%20fruit%20juice%20and%20smoothie%20drinks%2C%20the%20icon%20should%20take%20up%2070%25%20of%20the%20frame%2C%20vibrant%20colors%20with%20soft%20gradients%2C%20minimalist%20design%2C%20smooth%20rounded%20shapes%2C%20subtle%20shading%2C%20no%20outlines%2C%20centered%20composition%2C%20isolated%20on%20white%20background%2C%20playful%20and%20friendly%20aesthetic%2C%20isometric%20perspective%2C%20high%20detail%20quality%2C%20clean%20and%20modern%20look%2C%20single%20object%20focus&width=64&height=64&seq=cat4&orientation=squarish"
+                         alt="نوشیدنی" class="w-full h-full object-cover object-top">
+                </div>
+                <span class="text-xs mt-2 text-center"
+                      style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">نوشیدنی</span>
+            </div>
+            <div class="flex flex-col items-center cursor-pointer">
+                <div class="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=icon%2C%203D%20cartoon%2C%20Italian%20pizza%20slice%20with%20toppings%2C%20the%20icon%20should%20take%20up%2070%25%20of%20the%20frame%2C%20vibrant%20colors%20with%20soft%20gradients%2C%20minimalist%20design%2C%20smooth%20rounded%20shapes%2C%20subtle%20shading%2C%20no%20outlines%2C%20centered%20composition%2C%20isolated%20on%20white%20background%2C%20playful%20and%20friendly%20aesthetic%2C%20isometric%20perspective%2C%20high%20detail%20quality%2C%20clean%20and%20modern%20look%2C%20single%20object%20focus&width=64&height=64&seq=cat5&orientation=squarish"
+                         alt="پیتزا" class="w-full h-full object-cover object-top">
+                </div>
+                <span class="text-xs mt-2 text-center"
+                      style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">پیتزا</span>
+            </div>
+            <div class="flex flex-col items-center cursor-pointer">
+                <div class="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=icon%2C%203D%20cartoon%2C%20Fresh%20vegetables%20and%20fruits%20from%20supermarket%2C%20the%20icon%20should%20take%20up%2070%25%20of%20the%20frame%2C%20vibrant%20colors%20with%20soft%20gradients%2C%20minimalist%20design%2C%20smooth%20rounded%20shapes%2C%20subtle%20shading%2C%20no%20outlines%2C%20centered%20composition%2C%20isolated%20on%20white%20background%2C%20playful%20and%20friendly%20aesthetic%2C%20isometric%20perspective%2C%20high%20detail%20quality%2C%20clean%20and%20modern%20look%2C%20single%20object%20focus&width=64&height=64&seq=cat6&orientation=squarish"
+                         alt="سوپرمارکت" class="w-full h-full object-cover object-top">
+                </div>
+                <span class="text-xs mt-2 text-center"
+                      style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">سوپرمارکت</span>
+            </div>
+            <div class="flex flex-col items-center cursor-pointer">
+                <div class="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=icon%2C%203D%20cartoon%2C%20Asian%20sushi%20and%20rice%20dishes%2C%20the%20icon%20should%20take%20up%2070%25%20of%20the%20frame%2C%20vibrant%20colors%20with%20soft%20gradients%2C%20minimalist%20design%2C%20smooth%20rounded%20shapes%2C%20subtle%20shading%2C%20no%20outlines%2C%20centered%20composition%2C%20isolated%20on%20white%20background%2C%20playful%20and%20friendly%20aesthetic%2C%20isometric%20perspective%2C%20high%20detail%20quality%2C%20clean%20and%20modern%20look%2C%20single%20object%20focus&width=64&height=64&seq=cat7&orientation=squarish"
+                         alt="آسیایی" class="w-full h-full object-cover object-top">
+                </div>
+                <span class="text-xs mt-2 text-center"
+                      style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">آسیایی</span>
+            </div>
+            <div class="flex flex-col items-center cursor-pointer">
+                <div class="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=icon%2C%203D%20cartoon%2C%20Fresh%20salad%20and%20healthy%20vegetables%2C%20the%20icon%20should%20take%20up%2070%25%20of%20the%20frame%2C%20vibrant%20colors%20with%20soft%20gradients%2C%20minimalist%20design%2C%20smooth%20rounded%20shapes%2C%20subtle%20shading%2C%20no%20outlines%2C%20centered%20composition%2C%20isolated%20on%20white%20background%2C%20playful%20and%20friendly%20aesthetic%2C%20isometric%20perspective%2C%20high%20detail%20quality%2C%20clean%20and%20modern%20look%2C%20single%20object%20focus&width=64&height=64&seq=cat8&orientation=squarish"
+                         alt="سالم" class="w-full h-full object-cover object-top">
+                </div>
+                <span class="text-xs mt-2 text-center"
+                      style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">سالم</span>
+            </div>
+        </div>
+    </div>
+    <!-- Special Offers -->
+    <div class="px-4 py-2">
+        <div class="flex items-center justify-between mb-3">
+            <h2 class="text-lg font-bold text-gray-900">پیشنهادهای ویژه</h2>
+            <button class="text-primary text-sm cursor-pointer">مشاهده همه</button>
+        </div>
+        <div class="flex space-x-4 space-x-reverse overflow-x-auto pb-2">
+            <div class="flex-shrink-0 w-64 bg-white rounded-lg shadow-sm overflow-hidden cursor-pointer">
+                <div class="h-32 overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=Fresh%20bakery%20pastries%20and%20bread%2C%20warm%20golden%20croissants%2C%20colorful%20cupcakes%2C%20artisanal%20bread%20loaves%2C%20appetizing%20display%2C%20professional%20food%20photography%2C%20soft%20natural%20lighting%2C%20clean%20white%20background%2C%20high%20quality%20details&width=256&height=128&seq=special1&orientation=landscape"
+                         alt="نانوایی" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="p-3">
+                    <div class="flex items-center justify-between mb-1">
+                        <h3 class="font-medium text-sm">نانوایی سنتی احمد</h3>
+                        <span class="text-xs text-gray-500">۲۰۰ متر</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center space-x-1 space-x-reverse">
+                            <span class="text-lg font-bold text-secondary">۲۵,۰۰۰</span>
+                            <span class="text-xs text-gray-500">تومان</span>
+                        </div>
+                        <span class="text-xs line-through text-gray-400">۴۵,۰۰۰</span>
+                    </div>
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <span>انقضا: ۲ روز دیگر</span>
+                        <span class="bg-green-100 text-green-600 px-2 py-1 rounded">۳ عدد باقی</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-shrink-0 w-64 bg-white rounded-lg shadow-sm overflow-hidden cursor-pointer">
+                <div class="h-32 overflow-hidden">
+                    <img src="https://readdy.ai/api/search-image?query=Delicious%20restaurant%20meal%2C%20grilled%20chicken%20with%20vegetables%2C%20rice%20pilaf%2C%20fresh%20salad%2C%20appetizing%20presentation%2C%20professional%20food%20photography%2C%20warm%20lighting%2C%20clean%20white%20background%2C%20high%20quality%20restaurant%20food&width=256&height=128&seq=special2&orientation=landscape"
+                         alt="رستوران" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="p-3">
+                    <div class="flex items-center justify-between mb-1">
+                        <h3 class="font-medium text-sm">رستوران کبابی رضا</h3>
+                        <span class="text-xs text-gray-500">۵۰۰ متر</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <div class="flex items-center space-x-1 space-x-reverse">
+                            <span class="text-lg font-bold text-secondary">۸۵,۰۰۰</span>
+                            <span class="text-xs text-gray-500">تومان</span>
+                        </div>
+                        <span class="text-xs line-through text-gray-400">۱۵۰,۰۰۰</span>
+                    </div>
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <span>انقضا: امروز</span>
+                        <span class="bg-red-100 text-red-600 px-2 py-1 rounded">۱ عدد باقی</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Available Packages -->
+    <div class="px-4 py-4">
+        <h2 class="text-lg font-bold text-gray-900 mb-4">پکیج‌های موجود</h2>
+        <div class="space-y-4">
+            <div class="bg-white rounded-lg shadow-sm overflow-hidden cursor-pointer">
+                <a href="https://readdy.ai/home/f988f4f9-f01b-42f3-b712-762404701508/a2744273-24b2-4b8f-b61c-73da5720933c"
+                   data-readdy="true" class="flex">
+                    <div class="w-24 h-24 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=Fresh%20supermarket%20groceries%2C%20variety%20of%20fruits%20and%20vegetables%2C%20dairy%20products%2C%20bread%20and%20packaged%20foods%2C%20colorful%20healthy%20food%20display%2C%20professional%20photography%2C%20clean%20white%20background%2C%20appetizing%20presentation&width=96&height=96&seq=package1&orientation=squarish"
+                             alt="سوپرمارکت" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="flex-1 p-3">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-medium text-sm">سوپرمارکت شهروند</h3>
+                            <span class="text-xs text-gray-500">۳۰۰ متر</span>
+                        </div>
+                        <p class="text-xs text-gray-600 mb-2">مواد غذایی تازه و محصولات لبنی</p>
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center space-x-1 space-x-reverse">
+                                <span class="text-base font-bold text-secondary">۶۰,۰۰۰</span>
+                                <span class="text-xs text-gray-500">تومان</span>
+                            </div>
+                            <span class="text-xs line-through text-gray-400">۱۲۰,۰۰۰</span>
+                        </div>
+                        <div class="flex items-center justify-between text-xs">
+                            <span class="text-orange-600">انقضا: فردا</span>
+                            <span class="text-gray-500">تحویل: ۱۸-۲۰</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="bg-white rounded-lg shadow-sm overflow-hidden cursor-pointer">
+                <div class="flex">
+                    <div class="w-24 h-24 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=Traditional%20Persian%20sweets%20and%20desserts%2C%20baklava%2C%20Persian%20cookies%2C%20colorful%20sweets%20display%2C%20traditional%20pastry%20shop%2C%20appetizing%20presentation%2C%20professional%20food%20photography%2C%20clean%20white%20background%2C%20high%20quality%20details&width=96&height=96&seq=package2&orientation=squarish"
+                             alt="شیرینی" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="flex-1 p-3">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-medium text-sm">شیرینی‌سرای نادری</h3>
+                            <span class="text-xs text-gray-500">۱.۲ کیلومتر</span>
+                        </div>
+                        <p class="text-xs text-gray-600 mb-2">شیرینی‌های سنتی و کیک</p>
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center space-x-1 space-x-reverse">
+                                <span class="text-base font-bold text-secondary">۴۰,۰۰۰</span>
+                                <span class="text-xs text-gray-500">تومان</span>
+                            </div>
+                            <span class="text-xs line-through text-gray-400">۸۰,۰۰۰</span>
+                        </div>
+                        <div class="flex items-center justify-between text-xs">
+                            <span class="text-green-600">انقضا: ۳ روز دیگر</span>
+                            <span class="text-gray-500">تحویل: ۱۶-۱۸</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-sm overflow-hidden cursor-pointer">
+                <div class="flex">
+                    <div class="w-24 h-24 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=Fresh%20pizza%20slices%2C%20Italian%20cuisine%2C%20melted%20cheese%2C%20colorful%20toppings%2C%20appetizing%20pizza%20display%2C%20professional%20food%20photography%2C%20warm%20lighting%2C%20clean%20white%20background%2C%20high%20quality%20restaurant%20food&width=96&height=96&seq=package3&orientation=squarish"
+                             alt="پیتزا" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="flex-1 p-3">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-medium text-sm">پیتزا ایتالیانو</h3>
+                            <span class="text-xs text-gray-500">۸۰۰ متر</span>
+                        </div>
+                        <p class="text-xs text-gray-600 mb-2">پیتزا و پاستا تازه</p>
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center space-x-1 space-x-reverse">
+                                <span class="text-base font-bold text-secondary">۷۵,۰۰۰</span>
+                                <span class="text-xs text-gray-500">تومان</span>
+                            </div>
+                            <span class="text-xs line-through text-gray-400">۱۳۰,۰۰۰</span>
+                        </div>
+                        <div class="flex items-center justify-between text-xs">
+                            <span class="text-red-600">انقضا: امشب</span>
+                            <span class="text-gray-500">تحویل: ۲۰-۲۲</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-sm overflow-hidden cursor-pointer">
+                <div class="flex">
+                    <div class="w-24 h-24 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=Fresh%20fruit%20juice%2C%20smoothies%2C%20healthy%20beverages%2C%20colorful%20drinks%2C%20natural%20fruit%20juices%2C%20professional%20beverage%20photography%2C%20clean%20white%20background%2C%20appetizing%20presentation%2C%20high%20quality%20details&width=96&height=96&seq=package4&orientation=squarish"
+                             alt="آبمیوه" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="flex-1 p-3">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-medium text-sm">آبمیوه‌فروشی سلامت</h3>
+                            <span class="text-xs text-gray-500">۶۰۰ متر</span>
+                        </div>
+                        <p class="text-xs text-gray-600 mb-2">آبمیوه طبیعی و اسموتی</p>
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center space-x-1 space-x-reverse">
+                                <span class="text-base font-bold text-secondary">۳۵,۰۰۰</span>
+                                <span class="text-xs text-gray-500">تومان</span>
+                            </div>
+                            <span class="text-xs line-through text-gray-400">۶۰,۰۰۰</span>
+                        </div>
+                        <div class="flex items-center justify-between text-xs">
+                            <span class="text-green-600">انقضا: ۲ روز دیگر</span>
+                            <span class="text-gray-500">تحویل: ۱۴-۱۶</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-sm overflow-hidden cursor-pointer">
+                <div class="flex">
+                    <div class="w-24 h-24 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=Traditional%20Persian%20rice%20dishes%2C%20kebab%2C%20stew%2C%20authentic%20Iranian%20cuisine%2C%20colorful%20traditional%20food%2C%20professional%20food%20photography%2C%20appetizing%20presentation%2C%20clean%20white%20background%2C%20high%20quality%20restaurant%20meal&width=96&height=96&seq=package5&orientation=squarish"
+                             alt="غذای ایرانی" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="flex-1 p-3">
+                        <div class="flex items-center justify-between mb-1">
+                            <h3 class="font-medium text-sm">رستوران سنتی پارس</h3>
+                            <span class="text-xs text-gray-500">۱.۵ کیلومتر</span>
+                        </div>
+                        <p class="text-xs text-gray-600 mb-2">غذاهای ایرانی و خورشت</p>
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center space-x-1 space-x-reverse">
+                                <span class="text-base font-bold text-secondary">۹۰,۰۰۰</span>
+                                <span class="text-xs text-gray-500">تومان</span>
+                            </div>
+                            <span class="text-xs line-through text-gray-400">۱۶۰,۰۰۰</span>
+                        </div>
+                        <div class="flex items-center justify-between text-xs">
+                            <span class="text-orange-600">انقضا: فردا</span>
+                            <span class="text-gray-500">تحویل: ۱۹-۲۱</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- Bottom Navigation -->
+<nav class="fixed bottom-0 w-full bg-white border-t border-gray-200 z-50">
+    <div class="grid grid-cols-5 h-16">
+        <button class="flex flex-col items-center justify-center space-y-1 text-primary cursor-pointer">
+            <div class="w-6 h-6 flex items-center justify-center">
+                <i class="ri-home-fill"></i>
+            </div>
+            <span class="text-xs">خانه</span>
+        </button>
+        <a href="https://readdy.ai/home/f988f4f9-f01b-42f3-b712-762404701508/1840120e-eaf4-4b63-b9c2-419b9e9795ad"
+           data-readdy="true"
+           class="flex flex-col items-center justify-center space-y-1 text-gray-500 cursor-pointer">
+            <div class="w-6 h-6 flex items-center justify-center">
+                <i class="ri-map-pin-line"></i>
+            </div>
+            <span class="text-xs">نقشه</span>
+        </a>
+        <a href="https://readdy.ai/home/f988f4f9-f01b-42f3-b712-762404701508/429151d3-a7f6-4ec5-b891-f63702db4c44"
+           data-readdy="true"
+           class="flex flex-col items-center justify-center space-y-1 text-gray-500 cursor-pointer">
+            <div class="w-6 h-6 flex items-center justify-center">
+                <i class="ri-shopping-bag-line"></i>
+            </div>
+            <span class="text-xs">سفارش‌ها</span>
+        </a>
+        <a href="https://readdy.ai/home/f988f4f9-f01b-42f3-b712-762404701508/18a62d38-cb75-4895-b683-783c4ef9f522"
+           data-readdy="true"
+           class="flex flex-col items-center justify-center space-y-1 text-gray-500 cursor-pointer">
+            <div class="w-6 h-6 flex items-center justify-center">
+                <i class="ri-leaf-line"></i>
+            </div>
+            <span class="text-xs">محیط زیست</span>
+        </a>
+        <button class="flex flex-col items-center justify-center space-y-1 text-gray-500 cursor-pointer">
+            <div class="w-6 h-6 flex items-center justify-center">
+                <i class="ri-user-line"></i>
+            </div>
+            <span class="text-xs">پروفایل</span>
+        </button>
+    </div>
+</nav>
+<script id="search-functionality">
+    document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.querySelector('input[type="text"]');
+    const filterButtons = document.querySelectorAll('button');
+    searchInput.addEventListener('input', function() {
+    const searchTerm = this.value.toLowerCase();
+    console.log('جستجو برای:', searchTerm);
+    });
+    filterButtons.forEach(button => {
+    button.addEventListener('click', function() {
+    if (this.classList.contains('bg-gray-100')) {
+    filterButtons.forEach(btn => {
+    btn.classList.remove('bg-primary', 'text-white');
+    btn.classList.add('bg-gray-100', 'text-gray-600');
+    });
+    this.classList.remove('bg-gray-100', 'text-gray-600');
+    this.classList.add('bg-primary', 'text-white');
+    }
+    });
+    });
+    });
+</script>
+<script id="navigation-functionality">
+    document.addEventListener('DOMContentLoaded', function() {
+    const navButtons = document.querySelectorAll('nav:last-child button');
+    navButtons.forEach(button => {
+    button.addEventListener('click', function() {
+    navButtons.forEach(btn => {
+    btn.classList.remove('text-primary');
+    btn.classList.add('text-gray-500');
+    const icon = btn.querySelector('i');
+    if (icon.classList.contains('ri-home-fill')) {
+    icon.classList.replace('ri-home-fill', 'ri-home-line');
+    }
+    });
+    this.classList.remove('text-gray-500');
+    this.classList.add('text-primary');
+    const icon = this.querySelector('i');
+    if (icon.classList.contains('ri-home-line')) {
+    icon.classList.replace('ri-home-line', 'ri-home-fill');
+    }
+    });
+    });
+    });
+</script>
+<script id="package-interaction">
+    document.addEventListener('DOMContentLoaded', function() {
+    const packageCards = document.querySelectorAll('.cursor-pointer');
+    packageCards.forEach(card => {
+    card.addEventListener('click', function() {
+    this.style.transform = 'scale(0.98)';
+    setTimeout(() => {
+    this.style.transform = 'scale(1)';
+    }, 150);
+    });
+    });
+    });
+</script>
+<script id="category-selection">
+    document.addEventListener('DOMContentLoaded', function() {
+    const categoryItems = document.querySelectorAll('.grid-cols-4 .cursor-pointer');
+    categoryItems.forEach(item => {
+    item.addEventListener('click', function() {
+    categoryItems.forEach(cat => {
+    cat.classList.remove('opacity-60');
+    });
+    this.classList.add('opacity-60');
+    const categoryName = this.querySelector('span').textContent;
+    console.log('دسته انتخاب شده:', categoryName);
+    });
+    });
+    });
+</script>
+</body>
+</html>
