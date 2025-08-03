@@ -12,12 +12,11 @@ pluginManagement {
 
         maven { url = uri("https://maven.myket.ir") }
         maven { url = uri("https://repo.ito.gov.ir/gradle/maven_central") }
-        maven { url = uri("https://maven.oschina.net/content/groups/public") }
         gradlePluginPortal()
         google()
         mavenCentral()
     }
-//    includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
+    includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
 
 }
 
