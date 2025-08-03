@@ -36,12 +36,13 @@ dependencies:
   cupertino_icons: ^1.0.8
   bloc: ^9.0.0
   flutter_bloc: ^9.1.1
-  geolocator: ^14.0.2
   weather_icons: ^3.0.0
   weather: ^3.2.1
   intl: ^0.20.2
   adv_flutter_weather: ^1.0.0
   equatable: ^2.0.7
+  location: ^8.0.1
+  flutter_animate: ^4.5.2
 
 dev_dependencies:
   flutter_test:
@@ -70,7 +71,7 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - assets/index.html
+    - assets/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
