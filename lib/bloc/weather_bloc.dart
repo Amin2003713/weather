@@ -3,10 +3,7 @@ import 'package:equatable/equatable.dart';
 import 'package:location/location.dart';
 import 'package:weather/weather.dart';
 
-import '../location_helper.dart';
-
 part 'weather_event.dart';
-
 part 'weather_state.dart';
 
 class WeatherBloc extends Bloc<WeatherBlocEvent, WeatherBlocState> {

@@ -1,11 +1,10 @@
+import 'dart:ui' show ImageFilter;
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:food/bloc/weather_bloc.dart';
 import 'package:intl/intl.dart' show DateFormat;
-import 'dart:ui'
-    show Image, ImageFilter, SemanticsInputType, TextHeightBehavior;
-
 import 'package:weather_icons/weather_icons.dart';
 
 import '../../main.dart';
