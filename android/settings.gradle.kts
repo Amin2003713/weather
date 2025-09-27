@@ -9,12 +9,15 @@ pluginManagement {
         }
 
     repositories {
-
-        maven { url = uri("https://maven.myket.ir") }
-        maven { url = uri("https://repo.ito.gov.ir/gradle/maven_central") }
-        gradlePluginPortal()
+        maven {
+            url = uri("https://maven.aminnez.com/v1");
+        }
+        maven {
+            url = uri("https://maven.myket.ir");
+        }
         google()
         mavenCentral()
+        gradlePluginPortal()
     }
     includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
 

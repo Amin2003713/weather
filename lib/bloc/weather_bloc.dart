@@ -15,12 +15,10 @@ class WeatherBloc extends Bloc<WeatherBlocEvent, WeatherBlocState> {
           '4f617734a3b48f2ea2389f637116e1ba',
           language: Language.ENGLISH,
         );
-
         final weather = await fac.currentWeatherByLocation(
           event.data.latitude!,
           event.data.longitude!,
         );
-        print(weather);
         emit(WeatherSuccessState(weather: weather));
       } catch (e) {
         emit(WeatherFailureState());
